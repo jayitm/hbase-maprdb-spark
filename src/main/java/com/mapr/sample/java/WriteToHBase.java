@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class WriteToHbase {
+public class WriteToHBase {
 
   public static void main(String[] args) throws IOException {
 

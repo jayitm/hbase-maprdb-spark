@@ -14,7 +14,7 @@ import org.apache.spark.sql.DataFrame;
 import org.apache.spark.sql.SQLContext;
 import scala.Tuple2;
 
-public class ReadFromHbaseDF {
+public class ReadFromHBaseDF {
 
   public static void main(String[] args) {
 

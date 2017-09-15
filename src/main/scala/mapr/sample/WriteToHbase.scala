@@ -9,7 +9,7 @@ import org.apache.hadoop.mapred.JobConf
 import org.apache.spark.{SparkContext, SparkConf}
 
 
-object WriteToHbase {
+object WriteToHBase {
 
   case class User(id: String, firstName : String, lastName : String);
 

@@ -8,7 +8,7 @@ import org.apache.hadoop.hbase.io.ImmutableBytesWritable
 
 import org.apache.spark._
 
-object ReadFromHbase {
+object ReadFromHBase {
 
   val cf = Bytes.toBytes("default");
 
