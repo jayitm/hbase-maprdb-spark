@@ -7,17 +7,20 @@
   <groupId>com.mapr.demo.db</groupId>
   <artifactId>spark-sample</artifactId>
   <name>spark-sample</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
 
   <packaging>jar</packaging>
   <properties>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <encoding>UTF-8</encoding>
-    <scala.tools.version>2.10</scala.tools.version>
-    <scala.version>2.10.5</scala.version>
-    <spark.version>1.6.1</spark.version>
+    <scala.tools.version>2.11</scala.tools.version>
+    <scala.binary.version>2.11</scala.binary.version>
+    <scala.version>2.11.6</scala.version>
     <mapr.version>1.1.1-mapr-1602-m7-5.2.0</mapr.version>
+    <mapr.release.version>5.2.0.40963-mapr</mapr.release.version>
+    <spark.version>1.6.1</spark.version>
+    <maprspark.version>2.1.0-mapr-1703</maprspark.version>
     <maven-scala-plugin.version>2.15.2</maven-scala-plugin.version>
   </properties>
 
